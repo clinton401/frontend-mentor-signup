@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+- Live Site URL: [Netlify](https://fsign.netlify.app/)
 
 ## My process
 
@@ -60,7 +60,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Clinton](https://www.your-site.com)
+
 - Frontend Mentor - [@clinton401](https://www.frontendmentor.io/profile/clinton401)
 - Github - [@clinton401](https://github.com/clinton401)
 
