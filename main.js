@@ -14,6 +14,7 @@ function validateEmail() {
   }
 }
 
+
 const formHandler = e => {
    
     const email = document.getElementById('email')

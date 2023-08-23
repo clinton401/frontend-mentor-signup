@@ -6,7 +6,7 @@
 
 body {
   background-color: hsl(234, 29%, 20%);
-  height: 100vh;
+  height: 100dvh;
   position: relative;
   display: flex;
   /* overflow: hidden; */
@@ -17,6 +17,77 @@ body {
   justify-content: center;
   font-family: 'Roboto', sans-serif;
 }
+.form div {
+width: 50%;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form h1 {
+        font-family: 'Roboto', sans-serif;
+        color: hsl(234, 29%, 20%);
+        font-weight: 900;
+        font-size: 40px;
+        text-align: left;
+        /* border: 2px solid black; */
+    }
+    .form p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .form h1, .form p, .form ul {
+        padding-bottom: 20px;
+        width: 80%;
+        /* border: 2px solid red; */
+    }
+    .form li {
+        list-style: none;
+        display: flex;
+        padding: 6px 0;
+        font-weight: 400;
+        align-items: center;
+        font-size: 15px;
+        
+        
+    }
+    .form article {
+    padding-right: 7px;
+    display: flex;
+    /* height: auto; */
+    align-items: center;
+    /* width: 10px; */
+    /* border: 3px solid black; */
+   }
+   .form nav {
+    display: block;
+        width: 80%;
+        padding-bottom: 15px;
+   }
+   .form label {
+            font-size: 12px;
+            font-weight: 900;
+            font-family: 'Roboto', sans-serif;
+        color: hsl(234, 29%, 20%);
+        }
+        .form input {
+            width: 100%;
+            outline: none;
+             padding: 20px 10px;
+        border: 1px solid hsl(231, 7%, 60%);
+        border-radius: 10px;
+        
+        }
+        .form i {
+        padding: 3px;
+        margin-right: 7px;
+        border-radius: 50%;
+        font-size: 8px;
+        color: hsl(0, 0%, 100%);
+        border: none;
+        background-color: hsl(4, 100%, 67%);
+    }
 .form {
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
@@ -28,80 +99,12 @@ body {
   /* left: 0; */
   
   display: flex;
-  & div {
-    width: 50%;
-    /* border: 3px solid black; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    & h1 {
-        font-family: 'Roboto', sans-serif;
-        color: hsl(234, 29%, 20%);
-        font-weight: 900;
-        font-size: 40px;
-        text-align: left;
-        /* border: 2px solid black; */
+  
+}
+#button:hover {
+        background-color: hsl(234, 29%, 20%);
     }
-    & p {
-        font-size: 14px;
-        font-weight: 400;
-    }
-    & h1, & p, & ul {
-        padding-bottom: 20px;
-        width: 80%;
-        /* border: 2px solid red; */
-    }
-    & li {
-        list-style: none;
-        display: flex;
-        padding: 6px 0;
-        font-weight: 400;
-        align-items: center;
-        font-size: 15px;
-        
-        
-    }
-   & article {
-    padding-right: 7px;
-    display: flex;
-    /* height: auto; */
-    align-items: center;
-    /* width: 10px; */
-    /* border: 3px solid black; */
-   }
-    & nav {
-        display: block;
-        width: 80%;
-        padding-bottom: 30px;
-        & label {
-            font-size: 12px;
-            font-weight: 900;
-            font-family: 'Roboto', sans-serif;
-        color: hsl(234, 29%, 20%);
-        }
-        
-        & input {
-            width: 100%;
-            outline: none;
-        }
-    }
-    & i {
-        padding: 3px;
-        margin-right: 7px;
-        border-radius: 50%;
-        font-size: 8px;
-        color: hsl(0, 0%, 100%);
-        border: none;
-        background-color: hsl(4, 100%, 67%);
-    }
-    & input {
-        padding: 20px 10px;
-        border: 1px solid hsl(231, 7%, 60%);
-        border-radius: 10px;
-        
-    }
-    & .button {
+#button {
         background-color: hsl(4, 100%, 67%);
 
         cursor: pointer;
@@ -114,11 +117,6 @@ body {
         
         width: 80%;
     }
-    & .button:hover {
-        background-color: hsl(234, 29%, 20%);
-    }
-  }
-}
 aside {
     display: flex;
     justify-content: space-between;
@@ -134,13 +132,61 @@ aside {
 .form-right {
     height: 500px;
     /* border: 3px solid black; */
-    & .svg {
+    
+}
+.svg {
         width: 100%;
         /* border: 2px solid blue; */
         object-fit: cover;
     }
+.success div {
+        width: 80%;
+        display: flex;
 }
+        .success i {
+            padding: 15px;
+        margin-right: 7px;
+        border-radius: 50%;
+        font-size: 15px;
+        color: hsl(0, 0%, 100%);
+        border: none;
+        background-color: hsl(4, 100%, 67%);
+        }
+    .success h1 {
+        width: 80%;
+        padding: 25px 0;
+        font-family: 'Roboto', sans-serif;
+        color: hsl(234, 29%, 20%);
+        font-weight: 900;
+        font-size: 25px;
+    }
+    .success p {
+    width: 100%;
+    font-size: 13px;
+    font-weight: 300;
+    padding-bottom: 25px;
+    /* border: 3px solid black; */
+ }
+ #suc-email {
+    color: hsl(234, 29%, 20%);
+    font-weight: 900;
+ }
+ .success button {
+        background-color: hsl(4, 100%, 67%);
 
+        cursor: pointer;
+        border: none;
+        padding: 10px 0;
+        color: white;
+        font-weight: 900;
+        font-size: 12px;
+        border-radius: 10px;
+        
+        width: 80%;
+    }
+    .success button:hover {
+        background-color: hsl(234, 29%, 20%);
+    }
 .success {
     width: 330px;
     position: absolute;
@@ -160,55 +206,7 @@ aside {
     align-items: center;
     /* justify-content: center; */
     /* top: 1000px; */
-    & div {
-        width: 80%;
-        display: flex;
-        & i {
-            padding: 15px;
-        margin-right: 7px;
-        border-radius: 50%;
-        font-size: 15px;
-        color: hsl(0, 0%, 100%);
-        border: none;
-        background-color: hsl(4, 100%, 67%);
-        }
-    }
-    & h1 {
-        width: 80%;
-        padding: 25px 0;
-        font-family: 'Roboto', sans-serif;
-        color: hsl(234, 29%, 20%);
-        font-weight: 900;
-        font-size: 25px;
-    }
- & p {
-    width: 100%;
-    font-size: 13px;
-    font-weight: 300;
-    padding-bottom: 25px;
-    /* border: 3px solid black; */
- }
- & #suc-email {
-    color: hsl(234, 29%, 20%);
-    font-weight: 900;
- }
- 
- & button {
-        background-color: hsl(4, 100%, 67%);
-
-        cursor: pointer;
-        border: none;
-        padding: 10px 0;
-        color: white;
-        font-weight: 900;
-        font-size: 12px;
-        border-radius: 10px;
-        
-        width: 80%;
-    }
-    & button:hover {
-        background-color: hsl(234, 29%, 20%);
-    }
+    
 }
 .success.active {
     right: 38%;
@@ -233,27 +231,65 @@ aside {
     }
 }
 @media screen and (max-width: 800px) {
+    #success.active {
+        right: 30%;
+    }
+}
+@media screen and (max-width: 720px) {
+    #success.active {
+        right: 25%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #success.active {
+        right: 20%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #success.active {
+        right: 18%;
+    }
+}
+@media screen and (max-width: 900px) {
     /* html #body {
         overflow: auto;
         height: auto;
     } */
+   #body .form-right {
+            width: 100%;
+            
+    }
+            .svg {
+                width: 100%;
+            }
+        
     body .form {
         flex-direction: column-reverse;
         /* width: 90%; */
         
         top: 0;
         width: 100%;
-        & .form-right {
-            width: 100%;
-            & .svg {
-                width: 100%;
-            }
-        }
-        & .form-left {
+        
+    }
+   #body .form-left {
             padding-top: 30px;
             width: 100%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-    }
+      
+       
+}
+@media screen and (max-width: 900px ) and (min-width: 501px) {
+ .form-left h1, .form-left p, .form-left ul {
+            text-align: center;
+        }
+        .form-left li {
+            display: flex;
+            justify-content: center;
+        }
 }
 @media screen and (max-width: 500px) {
      #success {
@@ -263,7 +299,7 @@ aside {
         align-items: center;
         justify-content: center;
         border-radius: 0;
-        height: 100vh;
+        height: 100dvh;
         overflow: hidden;
         width: 100%;
      }
