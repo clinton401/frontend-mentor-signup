@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](../newsletter-sign-up-with-success-message-main/assets/images/screencapture-127-0-0-1-5500-index-html-2023-07-31-00_57_58.png)
-![](../newsletter-sign-up-with-success-message-main/assets/images/screencapture-127-0-0-1-5500-index-html-2023-07-31-00_58_16.png)
+![](./assets/images/screencapture-127-0-0-1-5500-index-html-2023-07-31-00_57_58.png)
+![](./assets/images/screencapture-127-0-0-1-5500-index-html-2023-07-31-00_58_16.png)
 
 
 ### Links
